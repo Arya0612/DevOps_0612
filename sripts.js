@@ -11,6 +11,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     if (username === '' || password === '') {
         errorElement.textContent = 'Please fill in both fields.';
         console.log('Fields are empty');
+        alert('Invalid');
     } else {
         errorElement.textContent = '';
         alert('Login successful');
